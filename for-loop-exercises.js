@@ -25,7 +25,13 @@ function example() {
   Inside the body, create a for loop that repeats 5 times
   Inside the for loop, call run()
 */
-
+function looper(){
+  
+  for(var i = 0; i < 5; i++){
+    run();
+    
+  }
+}
 
 /*
   Create a function named 'inception' with one parameter
@@ -38,6 +44,15 @@ function example() {
     inception(4) -> run() is called four times
     inception(0) -> run() should not be called
 */
+function inception(music){
+  
+  for (var x= 0; x < music; x++) { 
+  run()
+}
+}
+  
+
+
 
 
 /*
